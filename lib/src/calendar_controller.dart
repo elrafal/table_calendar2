@@ -482,4 +482,9 @@ class CalendarController {
       return value;
     }
   }
+
+  // RG: changed to:
+  void setEvents(Map<DateTime, List> events) {
+    _events = events;
+  }
 }
